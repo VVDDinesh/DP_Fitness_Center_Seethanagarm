@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Location - DP Fitness Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>DP Fitness</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="location.html" class="nav-link active">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pricing.html" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Find Us</h1>
+            <p>Visit our state-of-the-art facility in the heart of the city</p>
+        </div>
+    </section>
+
+    <!-- Location Info -->
+    <section class="location-info">
+        <div class="container">
+            <div class="location-content">
+                <div class="location-details">
+                    <h2>DP FITNESS [GYM]</h2>
+                    <div class="address-info">
+                        <div class="address-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>5MJR+GVP, Seethanagaram<br>Chinnakondepudi<br>Andhra Pradesh 533287</p>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 9640518985</p>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@dpfitness.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="location-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map"></i>
+                        <p>Interactive Map</p>
+                        <small>Click to view directions</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours -->
+    <section class="hours-section">
+        <div class="container">
+            <h2 class="section-title">Operating Hours</h2>
+            <div class="hours-grid">
+                <div class="hours-card">
+                    <h3>Monday - Friday</h3>
+                    <div class="hours-time">
+                        <span>5:00 AM - 10:00 PM</span>
+                    </div>
+                    <p>Morning: 5:00 AM - 10:00 AM<br>Evening: 5:00 PM - 10:00 PM</p>
+                </div>
+                <div class="hours-card">
+                    <h3>Saturday</h3>
+                    <div class="hours-time">
+                        <span>5:00 AM - 10:00 PM</span>
+                    </div>
+                    <p>Morning: 5:00 AM - 10:00 AM<br>Evening: 5:00 PM - 10:00 PM</p>
+                </div>
+                <div class="hours-card">
+                    <h3>Sunday</h3>
+                    <div class="hours-time">
+                        <span>Closed</span>
+                    </div>
+                    <p>Gym is closed on Sundays</p>
+                </div>
+                <div class="hours-card special">
+                    <h3>24/7 Access</h3>
+                    <div class="hours-time">
+                        <span>Available for Premium Members</span>
+                    </div>
+                    <p>Round-the-clock facility access</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Directions -->
+    <section class="directions-section">
+        <div class="container">
+            <h2 class="section-title">How to Get Here</h2>
+            <div class="directions-grid">
+                <div class="direction-card">
+                    <div class="direction-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>By Car</h3>
+                    <p>Located in the heart of downtown with easy access from major highways. Free parking available for all members.</p>
+                    <ul>
+                        <li>From Highway 101: Take exit 15, turn right on Main St</li>
+                        <li>From Downtown: Head north on Central Ave</li>
+                        <li>Free parking in our dedicated lot</li>
+                    </ul>
+                </div>
+                <div class="direction-card">
+                    <div class="direction-icon">
+                        <i class="fas fa-bus"></i>
+                    </div>
+                    <h3>By Public Transit</h3>
+                    <p>Conveniently located near major bus routes and metro stations for easy access.</p>
+                    <ul>
+                        <li>Bus Routes: 15, 22, 45</li>
+                        <li>Metro Station: Downtown Central (5 min walk)</li>
+                        <li>Light Rail: Fitness Street Station</li>
+                    </ul>
+                </div>
+                <div class="direction-card">
+                    <div class="direction-icon">
+                        <i class="fas fa-bicycle"></i>
+                    </div>
+                    <h3>By Bike</h3>
+                    <p>Bike-friendly location with dedicated bike racks and shower facilities for cyclists.</p>
+                    <ul>
+                        <li>Bike racks available</li>
+                        <li>Shower facilities for cyclists</li>
+                        <li>Located on bike-friendly routes</li>
+                    </ul>
+                </div>
+                <div class="direction-card">
+                    <div class="direction-icon">
+                        <i class="fas fa-walking"></i>
+                    </div>
+                    <h3>On Foot</h3>
+                    <p>Perfect location for those who prefer to walk or run to the gym.</p>
+                    <ul>
+                        <li>Pedestrian-friendly area</li>
+                        <li>Well-lit sidewalks</li>
+                        <li>Close to residential areas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parking -->
+    <section class="parking-section">
+        <div class="container">
+            <h2 class="section-title">Parking Information</h2>
+            <div class="parking-content">
+                <div class="parking-info">
+                    <h3>Free Parking for Members</h3>
+                    <p>We provide complimentary parking for all our members in our dedicated parking lot.</p>
+                    <div class="parking-features">
+                        <div class="parking-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Free parking for all members</span>
+                        </div>
+                        <div class="parking-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Well-lit parking area</span>
+                        </div>
+                        <div class="parking-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Security cameras</span>
+                        </div>
+                        <div class="parking-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Handicap accessible spaces</span>
+                        </div>
+                        <div class="parking-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Bike racks available</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="parking-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-car"></i>
+                        <p>Parking Area</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nearby Amenities -->
+    <section class="amenities-section">
+        <div class="container">
+            <h2 class="section-title">Nearby Amenities</h2>
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Coffee Shops</h3>
+                    <p>Multiple coffee shops within walking distance for pre or post-workout fuel.</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Restaurants</h3>
+                    <p>Various dining options nearby for healthy meals and post-workout nutrition.</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3>Shopping</h3>
+                    <p>Convenient shopping centers and grocery stores for all your fitness and lifestyle needs.</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>Medical Facilities</h3>
+                    <p>Nearby medical centers and pharmacies for health-related needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="contact-cta">
+        <div class="container">
+            <h2>Have Questions About Our Location?</h2>
+            <p>Contact us for directions, parking information, or any other location-related questions.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                <a href="tel:+15551234567" class="btn btn-secondary">Call Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DP Fitness Center</h3>
+                    <p>Transform your life with our state-of-the-art facilities and expert trainers.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Personal Training</a></li>
+                        <li><a href="services.html">Group Classes</a></li>
+                        <li><a href="services.html">Cardio Equipment</a></li>
+                        <li><a href="services.html">Weight Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@dpfitness.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Fitness St, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DP Fitness Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

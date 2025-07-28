@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Pricing - DP Fitness Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>DP Fitness</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="location.html" class="nav-link">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pricing.html" class="nav-link active">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Membership Plans</h1>
+            <p>Choose the perfect plan for your fitness journey</p>
+        </div>
+    </section>
+
+    <!-- Pricing Toggle -->
+    <section class="pricing-toggle-section">
+        <div class="container">
+            <div class="pricing-toggle">
+                <span>Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" class="pricing-toggle-input">
+                    <span class="slider"></span>
+                </label>
+                <span>Yearly <span class="save-badge">Save 20%</span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans -->
+    <section class="pricing-plans">
+        <div class="container">
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Basic</h3>
+                        <div class="plan-price">
+                            <span class="monthly-price">$29</span>
+                            <span class="yearly-price" style="display: none;">$23</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Perfect for beginners</p>
+                    </div>
+                    <div class="plan-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Access to gym equipment</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Locker room access</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Free WiFi</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Basic fitness assessment</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-times"></i>
+                            <span>Group classes</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-times"></i>
+                            <span>Personal training</span>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn btn-outline">Choose Plan</a>
+                </div>
+
+                <div class="plan-card featured">
+                    <div class="plan-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <h3>Premium</h3>
+                        <div class="plan-price">
+                            <span class="monthly-price">$49</span>
+                            <span class="yearly-price" style="display: none;">$39</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Best value for most members</p>
+                    </div>
+                    <div class="plan-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>All Basic features</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Unlimited group classes</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Personal training sessions</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Nutrition consultation</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Mobile app access</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Guest passes (2/month)</span>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary">Choose Plan</a>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Elite</h3>
+                        <div class="plan-price">
+                            <span class="monthly-price">$79</span>
+                            <span class="yearly-price" style="display: none;">$63</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p>Ultimate fitness experience</p>
+                    </div>
+                    <div class="plan-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>All Premium features</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>24/7 facility access</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Unlimited personal training</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Priority booking</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Guest passes (5/month)</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Exclusive member events</span>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn btn-outline">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Services -->
+    <section class="additional-services-pricing">
+        <div class="container">
+            <h2 class="section-title">Additional Services</h2>
+            <div class="services-grid">
+                <div class="service-pricing-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Personal Training</h3>
+                    <div class="service-price">
+                        <span>$60</span>
+                        <span>/session</span>
+                    </div>
+                    <p>One-on-one training with certified personal trainers</p>
+                    <ul>
+                        <li>Customized workout plans</li>
+                        <li>Progress tracking</li>
+                        <li>Nutrition guidance</li>
+                        <li>Flexible scheduling</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Book Session</a>
+                </div>
+
+                <div class="service-pricing-card">
+                    <div class="service-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h3>Nutrition Coaching</h3>
+                    <div class="service-price">
+                        <span>$80</span>
+                        <span>/session</span>
+                    </div>
+                    <p>Personalized nutrition plans from registered dietitians</p>
+                    <ul>
+                        <li>Custom meal plans</li>
+                        <li>Nutrition education</li>
+                        <li>Progress monitoring</li>
+                        <li>Ongoing support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Book Session</a>
+                </div>
+
+                <div class="service-pricing-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Fitness Assessment</h3>
+                    <div class="service-price">
+                        <span>$40</span>
+                        <span>/assessment</span>
+                    </div>
+                    <p>Comprehensive fitness evaluation and goal setting</p>
+                    <ul>
+                        <li>Body composition analysis</li>
+                        <li>Fitness level testing</li>
+                        <li>Goal setting</li>
+                        <li>Progress tracking</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Book Assessment</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I cancel my membership anytime?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, you can cancel your membership at any time with a 30-day notice. We offer flexible cancellation options to accommodate your needs.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer a free trial?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer a 7-day free trial for new members. Come experience our facilities and services before committing to a membership.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I freeze my membership?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, you can freeze your membership for up to 3 months per year for medical reasons or extended travel. Contact our membership team for details.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are there any hidden fees?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No hidden fees! All our pricing is transparent. The only additional costs are for optional services like personal training or nutrition coaching.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I bring a guest?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Premium and Elite members receive guest passes. Basic members can purchase day passes for guests at $15 per visit.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer family memberships?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer family packages with discounted rates for multiple family members. Contact us for family membership pricing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Fitness Journey?</h2>
+            <p>Join 150+ members who have transformed their lives with DP Fitness</p>
+            <a href="#" class="btn btn-primary" id="pricing-join-whatsapp">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DP Fitness Center</h3>
+                    <p>Transform your life with our state-of-the-art facilities and expert trainers.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Personal Training</a></li>
+                        <li><a href="services.html">Group Classes</a></li>
+                        <li><a href="services.html">Cardio Equipment</a></li>
+                        <li><a href="services.html">Weight Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@dpfitness.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Fitness St, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DP Fitness Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

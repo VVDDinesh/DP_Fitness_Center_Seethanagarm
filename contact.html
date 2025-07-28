@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Contact Us - DP Fitness Center</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>DP Fitness</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="services.html" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="location.html" class="nav-link">Location</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pricing.html" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with our team for any questions or inquiries</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>(555) 123-4567</p>
+                    <p>Available Monday - Friday, 8:00 AM - 8:00 PM</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>info@dpfitness.com</p>
+                    <p>We'll respond within 24 hours</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Address</h3>
+                    <p>123 Fitness Street<br>Downtown District<br>City, State 12345</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Hours</h3>
+                    <p>Monday - Friday: 5:00 AM - 11:00 PM</p>
+                    <p>Saturday: 6:00 AM - 10:00 PM</p>
+                    <p>Sunday: 7:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-content">
+                <div class="form-info">
+                    <h2>Send Us a Message</h2>
+                    <p>Have questions about our services, pricing, or facilities? Fill out the form below and we'll get back to you as soon as possible.</p>
+                    <div class="form-features">
+                        <div class="form-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Quick response time</span>
+                        </div>
+                        <div class="form-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Professional assistance</span>
+                        </div>
+                        <div class="form-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Personalized solutions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="membership">Membership Inquiry</option>
+                                <option value="personal-training">Personal Training</option>
+                                <option value="classes">Group Classes</option>
+                                <option value="pricing">Pricing Information</option>
+                                <option value="general">General Question</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help you..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" value="yes">
+                                <span class="checkmark"></span>
+                                Subscribe to our newsletter for fitness tips and updates
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="send_sms" value="yes">
+                                <span class="checkmark"></span>
+                                Send feedback to WhatsApp (9640518985)
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="public_feedback" value="yes">
+                                <span class="checkmark"></span>
+                                Display feedback publicly on website
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media -->
+    <section class="social-media-section">
+        <div class="container">
+            <h2 class="section-title">Connect With Us</h2>
+            <p>Follow us on social media for fitness tips, workout videos, and community updates.</p>
+            <div class="social-grid">
+                <a href="#" class="social-card facebook">
+                    <div class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <h3>Facebook</h3>
+                    <p>Join our community for daily motivation and fitness tips</p>
+                </a>
+                <a href="#" class="social-card instagram">
+                    <div class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>Follow us for workout videos and transformation stories</p>
+                </a>
+                <a href="#" class="social-card twitter">
+                    <div class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <h3>Twitter</h3>
+                    <p>Stay updated with fitness news and community events</p>
+                </a>
+                <a href="#" class="social-card youtube">
+                    <div class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <h3>YouTube</h3>
+                    <p>Watch workout tutorials and fitness education videos</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Quick Links -->
+    <section class="faq-quick-links">
+        <div class="container">
+            <h2 class="section-title">Quick Answers</h2>
+            <div class="faq-links-grid">
+                <div class="faq-link-card">
+                    <h3>Membership Questions</h3>
+                    <ul>
+                        <li><a href="pricing.html">View membership plans</a></li>
+                        <li><a href="pricing.html">Pricing information</a></li>
+                        <li><a href="pricing.html">Free trial details</a></li>
+                        <li><a href="pricing.html">Cancellation policy</a></li>
+                    </ul>
+                </div>
+                <div class="faq-link-card">
+                    <h3>Services & Classes</h3>
+                    <ul>
+                        <li><a href="services.html">Group class schedule</a></li>
+                        <li><a href="services.html">Personal training</a></li>
+                        <li><a href="services.html">Equipment available</a></li>
+                        <li><a href="services.html">Additional services</a></li>
+                    </ul>
+                </div>
+                <div class="faq-link-card">
+                    <h3>Location & Hours</h3>
+                    <ul>
+                        <li><a href="location.html">Find our location</a></li>
+                        <li><a href="location.html">Operating hours</a></li>
+                        <li><a href="location.html">Parking information</a></li>
+                        <li><a href="location.html">Directions</a></li>
+                    </ul>
+                </div>
+                <div class="faq-link-card">
+                    <h3>About DP Fitness</h3>
+                    <ul>
+                        <li><a href="about.html">Our story</a></li>
+                        <li><a href="about.html">Meet our team</a></li>
+                        <li><a href="about.html">Facility features</a></li>
+                        <li><a href="about.html">Our values</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact -->
+    <section class="emergency-contact">
+        <div class="container">
+            <div class="emergency-content">
+                <div class="emergency-info">
+                    <h2>Need Immediate Assistance?</h2>
+                    <p>For urgent matters or after-hours inquiries, please call our emergency line or send us a direct message.</p>
+                    <div class="emergency-contact-info">
+                        <div class="emergency-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Emergency Line</h4>
+                                <p>(555) 123-4568</p>
+                            </div>
+                        </div>
+                        <div class="emergency-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Direct Message</h4>
+                                <p>urgent@dpfitness.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="emergency-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-headset"></i>
+                        <p>24/7 Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DP Fitness Center</h3>
+                    <p>Transform your life with our state-of-the-art facilities and expert trainers.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Personal Training</a></li>
+                        <li><a href="services.html">Group Classes</a></li>
+                        <li><a href="services.html">Cardio Equipment</a></li>
+                        <li><a href="services.html">Weight Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@dpfitness.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Fitness St, City, State</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DP Fitness Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
